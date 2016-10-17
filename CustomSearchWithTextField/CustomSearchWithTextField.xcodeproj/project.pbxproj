@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF2ABFA1DB45DDB004C2371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2ABF91DB45DDB004C2371 /* main.m */; };
+		3EF2ABFD1DB45DDB004C2371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2ABFC1DB45DDB004C2371 /* AppDelegate.m */; };
+		3EF2AC031DB45DDB004C2371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2AC011DB45DDB004C2371 /* Main.storyboard */; };
+		3EF2AC051DB45DDB004C2371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2AC041DB45DDB004C2371 /* Assets.xcassets */; };
+		3EF2AC081DB45DDB004C2371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2AC061DB45DDB004C2371 /* LaunchScreen.storyboard */; };
+		3EF2AC131DB45DDB004C2371 /* CustomSearchWithTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2AC121DB45DDB004C2371 /* CustomSearchWithTextFieldTests.m */; };
+		3EF2AC1E1DB45DDB004C2371 /* CustomSearchWithTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2AC1D1DB45DDB004C2371 /* CustomSearchWithTextFieldUITests.m */; };
+		3EF2AC2D1DB45E17004C2371 /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2AC2C1DB45E17004C2371 /* SearchTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF2AC0F1DB45DDB004C2371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF2ABED1DB45DDB004C2371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF2ABF41DB45DDB004C2371;
+			remoteInfo = CustomSearchWithTextField;
+		};
+		3EF2AC1A1DB45DDB004C2371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF2ABED1DB45DDB004C2371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF2ABF41DB45DDB004C2371;
+			remoteInfo = CustomSearchWithTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EF2ABF51DB45DDB004C2371 /* CustomSearchWithTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSearchWithTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF2ABF91DB45DDB004C2371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EF2ABFB1DB45DDB004C2371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EF2ABFC1DB45DDB004C2371 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EF2AC021DB45DDB004C2371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF2AC041DB45DDB004C2371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF2AC071DB45DDB004C2371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF2AC091DB45DDB004C2371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF2AC0E1DB45DDB004C2371 /* CustomSearchWithTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSearchWithTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF2AC121DB45DDB004C2371 /* CustomSearchWithTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSearchWithTextFieldTests.m; sourceTree = "<group>"; };
+		3EF2AC141DB45DDB004C2371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF2AC191DB45DDB004C2371 /* CustomSearchWithTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSearchWithTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF2AC1D1DB45DDB004C2371 /* CustomSearchWithTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSearchWithTextFieldUITests.m; sourceTree = "<group>"; };
+		3EF2AC1F1DB45DDB004C2371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF2AC2B1DB45E17004C2371 /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
+		3EF2AC2C1DB45E17004C2371 /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF2ABF21DB45DDB004C2371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2AC0B1DB45DDB004C2371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2AC161DB45DDB004C2371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF2ABEC1DB45DDB004C2371 = {
+			isa = PBXGroup;
+			children = (
+				3EF2ABF71DB45DDB004C2371 /* CustomSearchWithTextField */,
+				3EF2AC111DB45DDB004C2371 /* CustomSearchWithTextFieldTests */,
+				3EF2AC1C1DB45DDB004C2371 /* CustomSearchWithTextFieldUITests */,
+				3EF2ABF61DB45DDB004C2371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF2ABF61DB45DDB004C2371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2ABF51DB45DDB004C2371 /* CustomSearchWithTextField.app */,
+				3EF2AC0E1DB45DDB004C2371 /* CustomSearchWithTextFieldTests.xctest */,
+				3EF2AC191DB45DDB004C2371 /* CustomSearchWithTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF2ABF71DB45DDB004C2371 /* CustomSearchWithTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2ABFB1DB45DDB004C2371 /* AppDelegate.h */,
+				3EF2ABFC1DB45DDB004C2371 /* AppDelegate.m */,
+				3EF2AC2B1DB45E17004C2371 /* SearchTableViewController.h */,
+				3EF2AC2C1DB45E17004C2371 /* SearchTableViewController.m */,
+				3EF2AC011DB45DDB004C2371 /* Main.storyboard */,
+				3EF2AC041DB45DDB004C2371 /* Assets.xcassets */,
+				3EF2AC061DB45DDB004C2371 /* LaunchScreen.storyboard */,
+				3EF2AC091DB45DDB004C2371 /* Info.plist */,
+				3EF2ABF81DB45DDB004C2371 /* Supporting Files */,
+			);
+			path = CustomSearchWithTextField;
+			sourceTree = "<group>";
+		};
+		3EF2ABF81DB45DDB004C2371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2ABF91DB45DDB004C2371 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EF2AC111DB45DDB004C2371 /* CustomSearchWithTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2AC121DB45DDB004C2371 /* CustomSearchWithTextFieldTests.m */,
+				3EF2AC141DB45DDB004C2371 /* Info.plist */,
+			);
+			path = CustomSearchWithTextFieldTests;
+			sourceTree = "<group>";
+		};
+		3EF2AC1C1DB45DDB004C2371 /* CustomSearchWithTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2AC1D1DB45DDB004C2371 /* CustomSearchWithTextFieldUITests.m */,
+				3EF2AC1F1DB45DDB004C2371 /* Info.plist */,
+			);
+			path = CustomSearchWithTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF2ABF41DB45DDB004C2371 /* CustomSearchWithTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF2AC221DB45DDB004C2371 /* Build configuration list for PBXNativeTarget "CustomSearchWithTextField" */;
+			buildPhases = (
+				3EF2ABF11DB45DDB004C2371 /* Sources */,
+				3EF2ABF21DB45DDB004C2371 /* Frameworks */,
+				3EF2ABF31DB45DDB004C2371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomSearchWithTextField;
+			productName = CustomSearchWithTextField;
+			productReference = 3EF2ABF51DB45DDB004C2371 /* CustomSearchWithTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF2AC0D1DB45DDB004C2371 /* CustomSearchWithTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF2AC251DB45DDB004C2371 /* Build configuration list for PBXNativeTarget "CustomSearchWithTextFieldTests" */;
+			buildPhases = (
+				3EF2AC0A1DB45DDB004C2371 /* Sources */,
+				3EF2AC0B1DB45DDB004C2371 /* Frameworks */,
+				3EF2AC0C1DB45DDB004C2371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF2AC101DB45DDB004C2371 /* PBXTargetDependency */,
+			);
+			name = CustomSearchWithTextFieldTests;
+			productName = CustomSearchWithTextFieldTests;
+			productReference = 3EF2AC0E1DB45DDB004C2371 /* CustomSearchWithTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF2AC181DB45DDB004C2371 /* CustomSearchWithTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF2AC281DB45DDB004C2371 /* Build configuration list for PBXNativeTarget "CustomSearchWithTextFieldUITests" */;
+			buildPhases = (
+				3EF2AC151DB45DDB004C2371 /* Sources */,
+				3EF2AC161DB45DDB004C2371 /* Frameworks */,
+				3EF2AC171DB45DDB004C2371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF2AC1B1DB45DDB004C2371 /* PBXTargetDependency */,
+			);
+			name = CustomSearchWithTextFieldUITests;
+			productName = CustomSearchWithTextFieldUITests;
+			productReference = 3EF2AC191DB45DDB004C2371 /* CustomSearchWithTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF2ABED1DB45DDB004C2371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "QAING CHEN";
+				TargetAttributes = {
+					3EF2ABF41DB45DDB004C2371 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+					};
+					3EF2AC0D1DB45DDB004C2371 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF2ABF41DB45DDB004C2371;
+					};
+					3EF2AC181DB45DDB004C2371 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF2ABF41DB45DDB004C2371;
+					};
+				};
+			};
+			buildConfigurationList = 3EF2ABF01DB45DDB004C2371 /* Build configuration list for PBXProject "CustomSearchWithTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF2ABEC1DB45DDB004C2371;
+			productRefGroup = 3EF2ABF61DB45DDB004C2371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF2ABF41DB45DDB004C2371 /* CustomSearchWithTextField */,
+				3EF2AC0D1DB45DDB004C2371 /* CustomSearchWithTextFieldTests */,
+				3EF2AC181DB45DDB004C2371 /* CustomSearchWithTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF2ABF31DB45DDB004C2371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2AC081DB45DDB004C2371 /* LaunchScreen.storyboard in Resources */,
+				3EF2AC051DB45DDB004C2371 /* Assets.xcassets in Resources */,
+				3EF2AC031DB45DDB004C2371 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2AC0C1DB45DDB004C2371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2AC171DB45DDB004C2371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF2ABF11DB45DDB004C2371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2ABFD1DB45DDB004C2371 /* AppDelegate.m in Sources */,
+				3EF2ABFA1DB45DDB004C2371 /* main.m in Sources */,
+				3EF2AC2D1DB45E17004C2371 /* SearchTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2AC0A1DB45DDB004C2371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2AC131DB45DDB004C2371 /* CustomSearchWithTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2AC151DB45DDB004C2371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2AC1E1DB45DDB004C2371 /* CustomSearchWithTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF2AC101DB45DDB004C2371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF2ABF41DB45DDB004C2371 /* CustomSearchWithTextField */;
+			targetProxy = 3EF2AC0F1DB45DDB004C2371 /* PBXContainerItemProxy */;
+		};
+		3EF2AC1B1DB45DDB004C2371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF2ABF41DB45DDB004C2371 /* CustomSearchWithTextField */;
+			targetProxy = 3EF2AC1A1DB45DDB004C2371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EF2AC011DB45DDB004C2371 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF2AC021DB45DDB004C2371 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF2AC061DB45DDB004C2371 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF2AC071DB45DDB004C2371 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF2AC201DB45DDB004C2371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF2AC211DB45DDB004C2371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF2AC231DB45DDB004C2371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = CustomSearchWithTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.CustomSearchWithTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EF2AC241DB45DDB004C2371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = CustomSearchWithTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.CustomSearchWithTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EF2AC261DB45DDB004C2371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = CustomSearchWithTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.CustomSearchWithTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomSearchWithTextField.app/CustomSearchWithTextField";
+			};
+			name = Debug;
+		};
+		3EF2AC271DB45DDB004C2371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = CustomSearchWithTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.CustomSearchWithTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomSearchWithTextField.app/CustomSearchWithTextField";
+			};
+			name = Release;
+		};
+		3EF2AC291DB45DDB004C2371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = CustomSearchWithTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.CustomSearchWithTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomSearchWithTextField;
+			};
+			name = Debug;
+		};
+		3EF2AC2A1DB45DDB004C2371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = CustomSearchWithTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.CustomSearchWithTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomSearchWithTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF2ABF01DB45DDB004C2371 /* Build configuration list for PBXProject "CustomSearchWithTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF2AC201DB45DDB004C2371 /* Debug */,
+				3EF2AC211DB45DDB004C2371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF2AC221DB45DDB004C2371 /* Build configuration list for PBXNativeTarget "CustomSearchWithTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF2AC231DB45DDB004C2371 /* Debug */,
+				3EF2AC241DB45DDB004C2371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EF2AC251DB45DDB004C2371 /* Build configuration list for PBXNativeTarget "CustomSearchWithTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF2AC261DB45DDB004C2371 /* Debug */,
+				3EF2AC271DB45DDB004C2371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EF2AC281DB45DDB004C2371 /* Build configuration list for PBXNativeTarget "CustomSearchWithTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF2AC291DB45DDB004C2371 /* Debug */,
+				3EF2AC2A1DB45DDB004C2371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF2ABED1DB45DDB004C2371 /* Project object */;
+}
